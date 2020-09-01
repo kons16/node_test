@@ -2,8 +2,7 @@
 expressを利用したsample
 
 ```
-npm init
-npm install express
-npm install ejs
+git clone https://github.com/kons16/node_test.git
+cd node_test
 node main.js
 ```
