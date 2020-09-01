@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
+// GET / 曜日の表示
 router.get('/', function(req, res, next) {
   console.log("Access root node.")
   let weekArray = ["日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"]
@@ -12,6 +13,7 @@ router.get('/', function(req, res, next) {
   res.render("index", param)
 });
 
+// GET /fruite くだものの表示
 router.get('/fruite', function(req, res, next) {
   console.log("Access root node.")
   let weekArray = ["りんご"]

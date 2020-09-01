@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+   <head>
+       <meta charset="utf-8">
+       <title>ユーザー一覧</title>
+       <meta name="viewport" content="width=device-width,initial-scale=1">
+       <link href="style.css" rel="stylesheet">
+   </head>
+   <body>
+       <div id="a1">ユーザー一覧</div>
+       <ul style="list-style-type: lower-roman;">
+           <% users.forEach(user => { %>
+               <h1><%= user %></li>
+           <% }) %>
+       </ul>
+   </body>
+</html>
